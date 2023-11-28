@@ -14,6 +14,7 @@ from models.place import Place
 from models.review import Review
 import sys
 
+
 class HBNBCommand(cmd.Cmd):
     """Defines the HBNBCommand class"""
     prompt = "(hbnb) "
