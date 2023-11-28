@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+!/usr/bin/python3
 """Console module"""
 
 
@@ -17,14 +17,14 @@ class HBNBCommand(cmd.Cmd):
     """Defines the HBNBCommand class"""
     prompt = "(hbnb) "
     modules = {
-        "BaseModel": BaseModel,
-        "User": User,
-        "State": State,
-        "City": City,
-        "Amenity": Amenity,
-        "Place": Place,
-        "Review": Review
-    }
+            "BaseModel": BaseModel,
+            "User": User,
+            "State": State,
+            "City": City,
+            "Amenity": Amenity,
+            "Place": Place,
+            "Review": Review
+            }
 
     def do_quit(self, arg):
         """Command to exit the program"""
